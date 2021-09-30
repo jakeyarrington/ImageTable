@@ -23,7 +23,7 @@ This simple class can turn any PNG, JPG or JPEG into a valid HTML table. Heres a
 
 require './ImageTable.php';
 
-$image_file = 'image.png';
+$image_file = '/path/to/image.png';
 
 $it = new jakerb\ImageTable($image_file);
 
